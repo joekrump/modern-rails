@@ -9,6 +9,11 @@
   dependencies:
     "@types/throttle-debounce" "^2.1.0"
 
+"@github/catalyst@^1.1.4":
+  version "1.1.4"
+  resolved "https://clio.jfrog.io/clio/api/npm/product-npm-prod/@github/catalyst/-/catalyst-1.1.4.tgz#b1eb7b35f590d882230ca516f2672a13591b7ce3"
+  integrity sha1-set7NfWQ2IIjDKUW8mcqE1kbfOM=
+
 "@hotwired/stimulus@^3.0.0":
   version "3.0.0"
   resolved "https://clio.jfrog.io/clio/api/npm/product-npm-prod/@hotwired/stimulus/-/stimulus-3.0.0.tgz#45171e61417af60f0e546665c52fae5b67295cee"
