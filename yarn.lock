@@ -419,7 +419,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.1.0":
+"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3":
   version: 4.3.3
   resolution: "debug@npm:4.3.3"
   dependencies:
@@ -1672,7 +1672,7 @@ __metadata:
     vite: ^2.8.6
     vite-plugin-full-reload: ^1.0.0
     vite-plugin-ruby: ^2.0.4
-    vite-plugin-stimulus-hmr: ^1.0.1
+    vite-plugin-stimulus-hmr: ^3.0.0
     vite-plugin-windicss: ^1.4.9
     windicss: ^3.1.8
   languageName: unknown
@@ -1814,10 +1814,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stimulus-vite-helpers@npm:^1.0, stimulus-vite-helpers@npm:^1.0.4":
+"stimulus-vite-helpers@npm:^1.0.4":
   version: 1.0.4
   resolution: "stimulus-vite-helpers@npm:1.0.4"
   checksum: f6a914f0a70e69ee9a5bb5eecf1da03c81a0d4f6b8621f1fafdf77942d82ac24e4f8d09987a8131a5acd0a7cd1dd5aa9c6de797300d543b2454504ee55578696
+  languageName: node
+  linkType: hard
+
+"stimulus-vite-helpers@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "stimulus-vite-helpers@npm:3.0.0"
+  checksum: 98d5799a4fcd448b512288207fcfc8b98007426823cb87c274dcf74d7e8114aa8c9b505b87743643fa116455d6ff22c2d6a864af5e3454075fa582260ae8dc45
   languageName: node
   linkType: hard
 
@@ -2059,13 +2066,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-stimulus-hmr@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "vite-plugin-stimulus-hmr@npm:1.0.1"
+"vite-plugin-stimulus-hmr@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "vite-plugin-stimulus-hmr@npm:3.0.0"
   dependencies:
-    debug: ^4.3.1
-    stimulus-vite-helpers: ^1.0
-  checksum: 824f0dffd974f8b20fce2c20c1a2eb1c5344f62a1091076983ff4f2b998afddcf9cf4f3b1e28eceadce11d33689d478adbc0bd4ae78f3b018dec4aabe5ea679e
+    debug: ^4.3
+    stimulus-vite-helpers: ^3.0.0
+  checksum: d1740b22e06650c07ca91121744acd4ca141c7a3203c3d16aad37e687c92d47b506b167e408d8a41f78a7bc6ef0bc6ed63004042723d04e863f29c91f01dd440
   languageName: node
   linkType: hard
 
