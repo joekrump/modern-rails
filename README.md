@@ -7,7 +7,7 @@
 ./bin/setup
 ```
 
-Run app:
+### Run app:
 ```
 bundle exec rails s
 bin/vite dev
