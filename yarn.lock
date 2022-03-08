@@ -5,6 +5,13 @@ __metadata:
   version: 5
   cacheKey: 8
 
+"@antfu/utils@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@antfu/utils@npm:0.5.0"
+  checksum: a5b39b556fe9e53fbc985235ea429badbacc3cd2932cce64dfe8b843b19778f0dec34db3c0d101d2364670eeacbb2bf1858149803b2eb7315cfe55737a58c9e6
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.0.1":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -113,6 +120,32 @@ __metadata:
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
   checksum: ad87447820dd3f24825d2d947ebc03072b20a42bfc96cbafec16bff8bbda6c1a81fcb0be56d5b21968560c5359a0af4038a68ba150c3e1694fe4c109a063bed8
+  languageName: node
+  linkType: hard
+
+"@windicss/config@npm:1.8.3":
+  version: 1.8.3
+  resolution: "@windicss/config@npm:1.8.3"
+  dependencies:
+    debug: ^4.3.3
+    jiti: ^1.13.0
+    windicss: ^3.5.1
+  checksum: e60cbb3eff1a5a5a02b302af2bed3f1fbadf82ab25821db05b950befee85e55df8bb24cdc54bf70a0e402781c958af4b009bc9ed4938a9e00c545b69e2658463
+  languageName: node
+  linkType: hard
+
+"@windicss/plugin-utils@npm:1.8.3":
+  version: 1.8.3
+  resolution: "@windicss/plugin-utils@npm:1.8.3"
+  dependencies:
+    "@antfu/utils": ^0.5.0
+    "@windicss/config": 1.8.3
+    debug: ^4.3.3
+    fast-glob: ^3.2.11
+    magic-string: ^0.25.7
+    micromatch: ^4.0.4
+    windicss: ^3.5.1
+  checksum: 9af4cd77b0efd38d671cb64a26ba18c4995d884e5ed31d2fab49170d565cfb5d0efd59525ef1d98dc756872da5b4eff424ccd99b04cf2735280723545789a246
   languageName: node
   linkType: hard
 
@@ -266,7 +299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3":
+"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3, debug@npm:^4.3.3":
   version: 4.3.3
   resolution: "debug@npm:4.3.3"
   dependencies:
@@ -542,6 +575,19 @@ __metadata:
   bin:
     esbuild: bin/esbuild
   checksum: 076fa82293d91d4a9c5ad27f8bde01fb86dc60b60b6d12c3deb917c5c7e9235b324e27114fc6e7e1fee9c9a1796fd094eac306c3b44b77a3819929472ee29450
+  languageName: node
+  linkType: hard
+
+"fast-glob@npm:^3.2.11":
+  version: 3.2.11
+  resolution: "fast-glob@npm:3.2.11"
+  dependencies:
+    "@nodelib/fs.stat": ^2.0.2
+    "@nodelib/fs.walk": ^1.2.3
+    glob-parent: ^5.1.2
+    merge2: ^1.3.0
+    micromatch: ^4.0.4
+  checksum: f473105324a7780a20c06de842e15ddbb41d3cb7e71d1e4fe6e8373204f22245d54f5ab9e2061e6a1c613047345954d29b022e0e76f5c28b1df9858179a0e6d7
   languageName: node
   linkType: hard
 
@@ -825,6 +871,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jiti@npm:^1.13.0":
+  version: 1.13.0
+  resolution: "jiti@npm:1.13.0"
+  bin:
+    jiti: bin/jiti.js
+  checksum: 1e74d99b9a551df952057b8bce56f744caccca0044aa05021643e6ce0837ed47bc2d5b290fecb462e32988c6bf318afe77e341310c5ecf6bb63c19c80c929cb6
+  languageName: node
+  linkType: hard
+
+"kolorist@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "kolorist@npm:1.5.1"
+  checksum: c113be08834fc03a24699612141c79879fceba9ff9765ad500507fb594ee4fa3465a3453ea90bbc9b0dd82f7ba5dbd79814da28e9ebaf8da27266a0088ba2714
+  languageName: node
+  linkType: hard
+
 "lru-cache@npm:^6.0.0":
   version: 6.0.0
   resolution: "lru-cache@npm:6.0.0"
@@ -838,6 +900,15 @@ __metadata:
   version: 7.4.1
   resolution: "lru-cache@npm:7.4.1"
   checksum: de6d8aa83b0a304943a1e1ec2a982d9b44ef36963c20bd01950f13dcb3eb482c57bfa15ab49b1baa15c682d6d33a10842bb7b33d8a449845009ffab6a2faec3c
+  languageName: node
+  linkType: hard
+
+"magic-string@npm:^0.25.7":
+  version: 0.25.9
+  resolution: "magic-string@npm:0.25.9"
+  dependencies:
+    sourcemap-codec: ^1.4.8
+  checksum: 9a0e55a15c7303fc360f9572a71cffba1f61451bc92c5602b1206c9d17f492403bf96f946dfce7483e66822d6b74607262e24392e87b0ac27b786e69a40e9b1a
   languageName: node
   linkType: hard
 
@@ -1223,6 +1294,7 @@ __metadata:
     vite-plugin-full-reload: ^1.0.0
     vite-plugin-ruby: ^2.0.4
     vite-plugin-stimulus-hmr: ^3.0.0
+    vite-plugin-windicss: ^1.8.3
     windicss: ^3.1.8
   languageName: unknown
   linkType: soft
@@ -1307,6 +1379,13 @@ __metadata:
   version: 1.0.2
   resolution: "source-map-js@npm:1.0.2"
   checksum: c049a7fc4deb9a7e9b481ae3d424cc793cb4845daa690bc5a05d428bf41bf231ced49b4cf0c9e77f9d42fdb3d20d6187619fc586605f5eabe995a316da8d377c
+  languageName: node
+  linkType: hard
+
+"sourcemap-codec@npm:^1.4.8":
+  version: 1.4.8
+  resolution: "sourcemap-codec@npm:1.4.8"
+  checksum: b57981c05611afef31605732b598ccf65124a9fcb03b833532659ac4d29ac0f7bfacbc0d6c5a28a03e84c7510e7e556d758d0bb57786e214660016fb94279316
   languageName: node
   linkType: hard
 
@@ -1492,6 +1571,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vite-plugin-windicss@npm:^1.8.3":
+  version: 1.8.3
+  resolution: "vite-plugin-windicss@npm:1.8.3"
+  dependencies:
+    "@windicss/plugin-utils": 1.8.3
+    debug: ^4.3.3
+    kolorist: ^1.5.1
+    windicss: ^3.5.1
+  peerDependencies:
+    vite: ^2.0.1
+  checksum: 73a565527956069b67a3a3213e5f9270673ff02bf79412da0d62fec526d854183d19a50fb23619478cf7b8cab3f42c87eed9e18e8156d91ec60a2c07d93a6523
+  languageName: node
+  linkType: hard
+
 "vite@npm:^2.8.6":
   version: 2.8.6
   resolution: "vite@npm:2.8.6"
@@ -1547,6 +1640,15 @@ __metadata:
   bin:
     windicss: cli/index.js
   checksum: 2a150f415fed65c7523715e206bbbcfcc0dad40b2de34abf900d4fb2ba714f1056e518c910a0217111f25baa955bce92a2a66bade5da45cb2c52f5368c044673
+  languageName: node
+  linkType: hard
+
+"windicss@npm:^3.5.1":
+  version: 3.5.1
+  resolution: "windicss@npm:3.5.1"
+  bin:
+    windicss: cli/index.js
+  checksum: fc2e1edeef9351da20457f08039bde383599761c1a585ccbbf08c41e2536419d5b751d50aae1ce99fd9bbe530ecd7d6f7b494d4019d11d5594889dc49e5bbc43
   languageName: node
   linkType: hard
 

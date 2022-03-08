@@ -14,6 +14,7 @@
     "vite": "^2.8.6",
     "vite-plugin-full-reload": "^1.0.0",
     "vite-plugin-ruby": "^2.0.4",
-    "vite-plugin-stimulus-hmr": "^3.0.0"
+    "vite-plugin-stimulus-hmr": "^3.0.0",
+    "vite-plugin-windicss": "^1.8.3"
   }
 }
