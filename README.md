@@ -1,9 +1,10 @@
 # README
 
 ## Dev
+
+### Setup
 ```
-bundle install
-yarn
+./bin/setup
 ```
 
 Run app:
