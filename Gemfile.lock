@@ -131,10 +131,10 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.4)
+    nokogiri (1.13.6)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    nokogiri (1.13.4-x86_64-darwin)
+    nokogiri (1.13.6-x86_64-darwin)
       racc (~> 1.4)
     public_suffix (4.0.6)
     puma (4.3.12)
@@ -249,6 +249,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   name_of_person (~> 1.1, >= 1.1.1)
+  nokogiri (>= 1.13.6)
   puma (~> 4.3)
   rails (~> 7.0.2.3)
   sass-rails (>= 6)

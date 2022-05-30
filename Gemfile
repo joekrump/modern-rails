@@ -52,3 +52,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'sidekiq', '~> 6.4'
 gem 'name_of_person', '~> 1.1', '>= 1.1.1'
 gem 'vite_rails', '~> 2.0', '>= 2.0.9'
+
+gem 'nokogiri', '>= 1.13.6'
