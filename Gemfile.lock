@@ -218,10 +218,10 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
-    vite_rails (2.0.13)
+    vite_rails (3.0.10)
       railties (>= 5.1, < 8)
-      vite_ruby (~> 1.0)
-    vite_ruby (1.2.20)
+      vite_ruby (~> 3.0)
+    vite_ruby (3.2.0)
       dry-cli (~> 0.7.0)
       rack-proxy (~> 0.6, >= 0.6.1)
       zeitwerk (~> 2.2)
@@ -265,7 +265,7 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   turbo-rails
   tzinfo-data
-  vite_rails (~> 2.0, >= 2.0.9)
+  vite_rails (~> 3.0.10)
   web-console (>= 3.3.0)
   webdrivers
 
