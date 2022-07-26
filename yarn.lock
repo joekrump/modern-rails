@@ -109,13 +109,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rails/ujs@npm:^6.1.4-1":
-  version: 6.1.4-1
-  resolution: "@rails/ujs@npm:6.1.4-1"
-  checksum: 1d6d4613d4b0e3070011359d88a8d0524d90a75af0def772fd164ee52ffd8446ba4a2545130e83e3bc2296e94b8eb7ec51b02fb69a9de65904d08ef29ef93fd3
-  languageName: node
-  linkType: hard
-
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -1285,7 +1278,6 @@ __metadata:
     "@github/catalyst": ^1.1.4
     "@rails/actiontext": ^7.0.3-1
     "@rails/activestorage": ^6.1.4-1
-    "@rails/ujs": ^6.1.4-1
     stimulus: ^3.0.0
     stimulus-vite-helpers: ^3.0.0
     trix: ^1.3.1

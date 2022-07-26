@@ -15,7 +15,6 @@
 
 // Example: Load Rails libraries in Vite.
 //
-// import '@rails/ujs'
 //
 // import Turbolinks from 'turbolinks'
 // import ActiveStorage from '@rails/activestorage'
