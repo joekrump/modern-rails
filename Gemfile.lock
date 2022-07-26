@@ -212,6 +212,10 @@ GEM
     thor (1.2.1)
     tilt (2.0.11)
     timeout (0.3.0)
+    turbo-rails (1.1.1)
+      actionpack (>= 6.0.0)
+      activejob (>= 6.0.0)
+      railties (>= 6.0.0)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     vite_rails (2.0.13)
@@ -258,6 +262,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
+  turbo-rails
   tzinfo-data
   vite_rails (~> 2.0, >= 2.0.9)
   web-console (>= 3.3.0)
