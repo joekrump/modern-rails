@@ -16,13 +16,12 @@
 // Example: Load Rails libraries in Vite.
 //
 //
-// import Turbolinks from 'turbolinks'
 // import ActiveStorage from '@rails/activestorage'
 //
 // // Import all channels.
 // import.meta.globEager('./**/*_channel.js')
 //
-// Turbolinks.start()
+import "@hotwired/turbo-rails";
 // ActiveStorage.start()
 
 // Example: Import a stylesheet in app/frontend/index.css
