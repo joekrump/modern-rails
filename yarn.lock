@@ -80,23 +80,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rails/actiontext@npm:^6.1.4-1":
-  version: 6.1.4-1
-  resolution: "@rails/actiontext@npm:6.1.4-1"
+"@rails/actiontext@npm:^7.0.3-1":
+  version: 7.0.3
+  resolution: "@rails/actiontext@npm:7.0.3"
   dependencies:
-    "@rails/activestorage": ^6.0.0
+    "@rails/activestorage": ">= 7.0.0-alpha1"
   peerDependencies:
-    trix: ^1.2.0
-  checksum: ba983411eb784ccb8fe9ac6eb1791a1d0e059ec2b32fd4491aface166d75f7d23d478639a24d44b3d6463087a3c5e0d579052014f5c8dd299ae571f0c7ec1775
+    trix: ^1.3.1
+  checksum: 9179657a4c7da3ca4255219db1cfd8691079a2f3c06ee5370bb94a1bdff00f74b9483713eae0eab032d79011c6328f5f96ee35a31bb9f4f050a7658c187a128d
   languageName: node
   linkType: hard
 
-"@rails/activestorage@npm:^6.0.0":
-  version: 6.1.4
-  resolution: "@rails/activestorage@npm:6.1.4"
+"@rails/activestorage@npm:>= 7.0.0-alpha1":
+  version: 7.0.3
+  resolution: "@rails/activestorage@npm:7.0.3"
   dependencies:
-    spark-md5: ^3.0.0
-  checksum: fdfacbe5249c1ed5c2aa09fe593bf1689840ef4b590766a5638b81b57c3c6307daaf636974a7d0b0a03ced602313440dc161a209e23f73d018fb530489ba3509
+    spark-md5: ^3.0.1
+  checksum: 0b087b115a3c3513041601f48c105bf4784701a57a13b356718e32ec72f11d38c26fb7780cecc42d8f5b813025e04f4b0fdd78081dfab41a67054d09748a106f
   languageName: node
   linkType: hard
 
@@ -1283,7 +1283,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@github/catalyst": ^1.1.4
-    "@rails/actiontext": ^6.1.4-1
+    "@rails/actiontext": ^7.0.3-1
     "@rails/activestorage": ^6.1.4-1
     "@rails/ujs": ^6.1.4-1
     stimulus: ^3.0.0
@@ -1389,7 +1389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"spark-md5@npm:^3.0.0":
+"spark-md5@npm:^3.0.0, spark-md5@npm:^3.0.1":
   version: 3.0.2
   resolution: "spark-md5@npm:3.0.2"
   checksum: 5feebff0bfabcecf56ba03af3e38fdb068272ed41fbf0a94ff9ef65b9bb9cb1dd69be3684db6542e62497b1eac3ae324c07ac4dcb606465dc36ca048177077bf
